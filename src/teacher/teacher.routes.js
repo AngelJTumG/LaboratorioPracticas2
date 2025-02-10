@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { param, body } from "express-validator"; // Importar param y body
+import { param, body } from "express-validator";
 import { getTeacherById, getTeachers, deleteTeacher, updatePassword, updateTeacher, createClass, updateClass, deleteClass, getClassesByTeacher } from "./teacher.controller.js";
 import { getUserByIdValidator, deleteUserValidator, updatePasswordValidator, updateUserValidator } from "../middlewares/teacher.validator.js";
 import { validarCampos } from "../middlewares/validate-fields.js";

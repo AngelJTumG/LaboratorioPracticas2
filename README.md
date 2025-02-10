@@ -9,6 +9,9 @@ Para facilitar las pruebas de la API, se proporciona una colección de Postman. 
 3. Selecciona el archivo `GestorAcademico.postman_collection.json` ubicado en el directorio `configs`.
 4. Haz clic en **Import**.
 
+### Descargar la Colección
+Puedes descargar la colección desde [aquí](configs/GestorAcademico.postman_collection.json).
+
 # Endpoints
 
 ## LOGIN
@@ -193,10 +196,3 @@ Para facilitar las pruebas de la API, se proporciona una colección de Postman. 
 ### GET /v1/class/assignedStudents/:classId
   **Parámetros:**
     - classId: string (ID de la clase)
-
-Ejecutar el Proyecto
-Para ejecutar el proyecto, sigue estos pasos:
-
-Clona el repositorio.
-Instala las dependencias usando npm install.
-Inicia el servidor usando npm start.
